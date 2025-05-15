@@ -1,0 +1,83 @@
+<!-- Page d'accueil index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartes de Visite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .team-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .team-member {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .team-member img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .team-member-info {
+            padding: 15px;
+            text-align: center;
+        }
+        .team-member-info h2 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+        .team-member a {
+            display: inline-block;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notre Équipe</h1>
+    
+    <div class="team-list">
+        <!-- Exemple de membre d'équipe -->
+        <div class="team-member">
+            <img src="jean-dupont/photo.jpg" alt="Jean Dupont">
+            <div class="team-member-info">
+                <h2>Jean Dupont</h2>
+                <a href="jean-dupont/">Voir le profil</a>
+            </div>
+        </div>
+        
+        <!-- Ajoutez d'autres membres ici de la même façon -->
+        <div class="team-member">
+            <img src="marie-martin/photo.jpg" alt="Marie Martin">
+            <div class="team-member-info">
+                <h2>Marie Martin</h2>
+                <a href="marie-martin/">Voir le profil</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
