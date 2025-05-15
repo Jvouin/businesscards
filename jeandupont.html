@@ -1,0 +1,119 @@
+<!-- Fichier jean-dupont/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean Dupont - Carte de Visite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .card-container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .photo-container {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .info-container {
+            padding: 20px 30px;
+        }
+        .info-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .info-label {
+            font-weight: bold;
+            width: 100px;
+        }
+        .download-btn {
+            display: block;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="header">
+            <h1>Jean Dupont</h1>
+            <p>Responsable Commercial</p>
+        </div>
+        
+        <div class="photo-container">
+            <img src="photo.jpg" alt="Jean Dupont" class="profile-photo">
+        </div>
+        
+        <div class="info-container">
+            <div class="info-item">
+                <span class="info-label">Nom:</span>
+                <span>Jean Dupont</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Téléphone:</span>
+                <span>+33 6 12 34 56 78</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span>jean.dupont@entreprise.fr</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Adresse:</span>
+                <span>123 Rue de la Paix, 75000 Paris</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Site web:</span>
+                <span><a href="https://www.entreprise.fr">www.entreprise.fr</a></span>
+            </div>
+            
+            <a href="jean-dupont.vcf" class="download-btn">Télécharger la carte de visite</a>
+        </div>
+        
+        <footer>
+            <p>Scannez la carte NFC ou utilisez ce QR code pour enregistrer mes coordonnées</p>
+        </footer>
+    </div>
+</body>
+</html>
