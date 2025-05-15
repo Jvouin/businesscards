@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Vouin;Julien;;;
+FN:Julien Vouin
+ORG:Avery Dennison
+TITLE:Country Manager
+TEL;TYPE=CELL:+33 6 35 86 98 03
+EMAIL:julien.vouin@eu.averydennison.com
+URL:https://graphics.averydennison.eu/en/home.html
+ADR;TYPE=WORK:;;Zi de la plaine;Champ-sur-Drac;;38560;France
+END:VCARD
