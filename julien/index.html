@@ -25,7 +25,7 @@
         .header {
             background: #2c3e50;
             color: white;
-            padding: 30px;
+            padding: 30px 30px 30px 200px; /* Agrandit le padding à gauche pour faire place au logo */
             text-align: center;
             position: relative;
             display: flex;
@@ -39,6 +39,12 @@
             position: absolute;
             top: 15px;
             left: 15px;
+        }
+        .header h1 {
+            margin-bottom: 5px; /* Réduit l'espace entre le nom et le titre */
+        }
+        .header p {
+            margin-top: 0; /* Réduit davantage l'espace avec le titre */
         }
         .photo-container {
             text-align: center;
