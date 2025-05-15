@@ -1,10 +1,10 @@
-<!-- Fichier julien/index.html -->
+<!-- Fichier jean-dupont/index.html -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julien Vouin - Carte de Visite</title>
+    <title>Jean Dupont - Carte de Visite</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -18,15 +18,14 @@
             max-width: 600px;
             margin: 40px auto;
             background: white;
-            border-radius: 25px;
+            border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             overflow: hidden;
         }
         .header {
             background: #2c3e50;
             color: white;
-            padding: 30px 30px 30px 200px; /* Agrandit le padding à gauche pour faire place au logo */
-            text-align: center;
+            padding: 30px 30px 30px 30px;
             position: relative;
             display: flex;
             flex-direction: column;
@@ -39,12 +38,22 @@
             position: absolute;
             top: 15px;
             left: 15px;
+            margin-bottom: 20px;
+        }
+        .header-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px; /* Espace pour placer le contenu sous le logo */
         }
         .header h1 {
-            margin-bottom: 5px; /* Réduit l'espace entre le nom et le titre */
+            margin-bottom: 5px;
+            text-align: center;
         }
         .header p {
-            margin-top: 0; /* Réduit davantage l'espace avec le titre */
+            margin-top: 0;
+            text-align: center;
         }
         .photo-container {
             text-align: center;
@@ -55,8 +64,8 @@
             height: 150px;
             border-radius: 50%;
             object-fit: cover;
-            border: 5px solid #2c3e50;
-            box-shadow: 0 0 15px rgba(44,62,80);
+            border: 5px solid white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
         }
         .info-container {
             padding: 20px 30px;
