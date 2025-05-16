@@ -1,0 +1,142 @@
+
+<!-- Fichier Angélique Martin/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angélique Martin - Carte de Visite</title>
+ <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        .card-container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 80px 30px 10px 30px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .company-logo {
+            max-width: 180px;
+            max-height: 150px;
+            object-fit: contain;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            margin-bottom: 20px;
+        }
+        .header-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header h1 {
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .header p {
+            margin-top: 0;
+            text-align: center;
+        }
+        .photo-container {
+            text-align: center;
+            padding: 15px 0;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #2c3e50;
+            box-shadow: 0 0 15px rgba(44,62,80);
+        }
+        .info-container {
+            padding: 0px 30px;
+        }
+        .info-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .info-label {
+            font-weight: bold;
+            width: 100px;
+        }
+        .download-btn {
+            display: block;
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="header">
+            <img src="../logo.png" alt="Avery Dennison" class="company-logo">    
+            <h1>Angélique Martin</h1>
+            <p>Service Clients</p>
+        </div>
+        
+        <div class="photo-container">
+            <img src="angelique.jpg" alt="Angelique Martin" class="profile-photo">
+        </div>
+        
+        <div class="info-container">
+            <div class="info-item">
+                <span class="info-label">Nom:</span>
+                <span>Angélique Martin</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Téléphone:</span>
+                <span>+33 1 64 54 78 18</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Email:</span>
+                <span>angelique.martin@eu.averydennison.com</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Adresse:</span>
+                <span>Zi de la plaine, <br> 38560 Champ-sur-Drac, <br> France</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Site web:</span>
+                <span><a href="https://graphics.averydennison.com/eu-fr/home.html">graphics.averydennison.com/eu-fr</a></span>
+            </div>
+            
+            <a href="julien.vcf" class="download-btn">Télécharger la carte de visite</a>
+        </div>
+    </div>
+</body>
+</html>
